@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7ab4f1fc-3b1a-4532-a3fb-133c17cf8a0c" name="Changes" comment="solution_part1.kt : contain Part 1, Question 1 &amp; 2 &#10;solution_part2.kt : contain Part 2, Question 3&#10; solution_part3.kt : contain Part 3 Challenge 1&#10; solution_part4.kt :contain Part 3 Challenge 2&#10; &#10; ^^ the challenges was fun ,But the last Challenge the idea of the game is nor clear enough.">
-      <change afterPath="$PROJECT_DIR$/src/solution_part3.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/solution_part4.kt" afterDir="false" />
+    <list default="true" id="7ab4f1fc-3b1a-4532-a3fb-133c17cf8a0c" name="Changes" comment="[solution_part1.kt : contain Part 1, Question 1 &amp; 2 ]---&#10;[solution_part2.kt : contain Part 2, Question 3]---&#10; [solution_part3.kt : contain Part 3 Challenge 1]---&#10; [solution_part4.kt :contain Part 3 Challenge 2]&#10; &#10; ^^ the challenges was fun ,But the last Challenge the idea of the game is nor clear enough.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/solution_part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution_part1.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/solution_part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution_part2.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +82,14 @@
       <option name="presentableId" value="Default" />
       <updated>1632828056510</updated>
     </task>
+    <task id="LOCAL-00001" summary="solution_part1.kt : contain Part 1, Question 1 &amp; 2 &#10;solution_part2.kt : contain Part 2, Question 3&#10; solution_part3.kt : contain Part 3 Challenge 1&#10; solution_part4.kt :contain Part 3 Challenge 2&#10; &#10; ^^ the challenges was fun ,But the last Challenge the idea of the game is nor clear enough.">
+      <created>1632868704815</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1632868704815</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

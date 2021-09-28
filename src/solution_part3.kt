@@ -1,7 +1,6 @@
 fun main() {
     // --- Part III Challenge 1: Mathematical Operations ---
 
-
     fun mathAdd(x: Int, y: Int, math: (n1: Int, n2: Int) -> Int) {
     println("add: " + math(x, y))
 }

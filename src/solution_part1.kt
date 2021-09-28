@@ -6,7 +6,6 @@ fun main() {
     // Output should be 22
 
 //-------------------------------------
-
    // Part I - Question  2
 
     println(fullName("Ahmed", "Abdullah", "Al Waleed"))

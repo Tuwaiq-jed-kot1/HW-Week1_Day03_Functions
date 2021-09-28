@@ -2,7 +2,6 @@ fun main() {
 
     // --- Part III Challenge 2: Fireball Fuel Level
    // I don't really understand the Game
-
     /*
     var fuel:Int = 50
 
