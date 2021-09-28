@@ -56,10 +56,28 @@ Output:
         Multiply: 6
         Divide: 0 
 ```
+###fun maine(){
+###val math = fun (x:Int,y:Int){
+###var add = x+y
+###var Subtract = x-y
+###var Multiply = x*y
+###var Divide = x/y
+###println("add: $add")
+###println("Subtract: $Subtract")
+###println("Multiply: $Multiply")
+###println("Divide: $Divide") }
+###math(2, 3)}
 
 ### Challenge 2: Fireball Fuel Level
 Casting fireballs does not just print a message to the console. While NyetHack fireballs are strong, the
 player should not be able to cast an unlimited amount of them. Make the `castFireball()` function return
 a resulting remaining fuel value that depends on the number of fireballs cast. The fuel value should be
 between 1 and 50, with 50 being the maximum amount of fuel in the game.
-  
+###    fun main(){
+###    print("plz enter number between 1 -50: ")
+###    var NyetHack = readLine()?.toInt()
+###    var castFireball :Int = 50 - NyetHack!!
+###    if (castFireball >= 1 && castFireball <= 50){
+###    println("the remaining fuelis: $castFireball")
+###    }else{
+###    println("plz enter the number between 1-50")}}
