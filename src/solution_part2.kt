@@ -1,4 +1,4 @@
-import kotlin.math.max
+
 
 fun main(){
     val maximum: (Int, Int, Int) -> Any ={ n1, n2, n3 ->
