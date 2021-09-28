@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="376911e4-a5ff-454d-b05c-8deaf6733635" name="Changes" comment="Problem Solved :)" />
+    <list default="true" id="7ab4f1fc-3b1a-4532-a3fb-133c17cf8a0c" name="Changes" comment="solution_part1.kt : contain Part 1, Question 1 &amp; 2 &#10;solution_part2.kt : contain Part 2, Question 3&#10; solution_part3.kt : contain Part 3 Challenge 1&#10; solution_part4.kt :contain Part 3 Challenge 2&#10; &#10; ^^ the challenges was fun ,But the last Challenge the idea of the game is nor clear enough.">
+      <change afterPath="$PROJECT_DIR$/src/solution_part3.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solution_part4.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution_part1.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution_part1.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution_part2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution_part2.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,77 +19,72 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--follow-tags" />
-        <option name="title" value="Current Branch" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1ym5nuVpnZdpwXk3sqKKxkpVme7" />
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="1ylZILphDG2EOdTIT9XmuEwDSl2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Kotlin.Solution_part1Kt">
+    <configuration name="Solution_part1Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution_part1Kt" />
+      <module name="HW-Week1_Day03_Functions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution_part2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution_part2Kt" />
+      <module name="HW-Week1_Day03_Functions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution_part3Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Solution_part3Kt" />
+      <module name="HW-Week1_Day03_Functions" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.Solution_part1Kt" />
+        <item itemvalue="Kotlin.Solution_part3Kt" />
+        <item itemvalue="Kotlin.Solution_part2Kt" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="376911e4-a5ff-454d-b05c-8deaf6733635" name="Changes" comment="" />
-      <created>1632844095454</created>
+      <changelist id="7ab4f1fc-3b1a-4532-a3fb-133c17cf8a0c" name="Changes" comment="" />
+      <created>1632828056510</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1632844095454</updated>
+      <updated>1632828056510</updated>
     </task>
-    <task id="LOCAL-00001" summary="Problem Solved :)">
-      <created>1632847096340</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1632847096340</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Problem Solved :)">
-      <created>1632847804500</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1632847804500</updated>
-    </task>
-    <task id="LOCAL-00003" summary="Problem Solved :)">
-      <created>1632848013469</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1632848013469</updated>
-    </task>
-    <task id="LOCAL-00004" summary="Problem Solved :)">
-      <created>1632848525467</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1632848525467</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Problem Solved :)">
-      <created>1632848606481</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1632848606481</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -93,9 +97,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Problem Solved :)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Problem Solved :)" />
+    <MESSAGE value="solution_part1.kt : contain Part 1, Question 1 &amp; 2 &#10;solution_part2.kt : contain Part 2, Question 3&#10; solution_part3.kt : contain Part 3 Challenge 1&#10; solution_part4.kt :contain Part 3 Challenge 2&#10; &#10; ^^ the challenges was fun ,But the last Challenge the idea of the game is nor clear enough." />
+    <option name="LAST_COMMIT_MESSAGE" value="solution_part1.kt : contain Part 1, Question 1 &amp; 2 &#10;solution_part2.kt : contain Part 2, Question 3&#10; solution_part3.kt : contain Part 3 Challenge 1&#10; solution_part4.kt :contain Part 3 Challenge 2&#10; &#10; ^^ the challenges was fun ,But the last Challenge the idea of the game is nor clear enough." />
   </component>
 </project>
