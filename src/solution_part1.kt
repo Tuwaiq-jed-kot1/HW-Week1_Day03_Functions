@@ -1,7 +1,7 @@
 fun main(){
    // function called `add()` that takes two input numbers and returns the sum of these numbers.
    fun add(n1:Int,n2:Int) :Int{
-      var sum=n1+n2
+      val sum=n1+n2
        return  sum
    }
 
