@@ -1,10 +1,10 @@
-# Kotlin Essentials II - Assignment 
+# Kotlin Essentials II - Assignment
 ---
 The Kotlin assignment has three components:
 - Part I: Practice with functions.
 - Part II: Practice with Anonymous Functions (Optional).
 - Part III: More Practicing (Optional).
-  
+
 > Note: You must save your solution as `solution_part1.kt` for Part I, and `solution_part2.kt` for Part II.
 
 ## Instructions
@@ -62,3 +62,4 @@ Casting fireballs does not just print a message to the console. While NyetHack f
 player should not be able to cast an unlimited amount of them. Make the `castFireball()` function return
 a resulting remaining fuel value that depends on the number of fireballs cast. The fuel value should be
 between 1 and 50, with 50 being the maximum amount of fuel in the game.
+  
