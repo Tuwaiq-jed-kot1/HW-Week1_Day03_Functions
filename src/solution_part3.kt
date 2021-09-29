@@ -1,5 +1,6 @@
 // ## Part III - More Practicing (Optional).
 
+
 val maxFuel : Int = 50
 var fuel : Int = 6
 
