@@ -15,51 +15,79 @@ We'll be working through problems designed to get more practice with the concept
 ---
 ### Question 1
 Create a function called `add()` that takes two input numbers and returns the sum of these numbers.
-```sh
-fun main() {
-   println(add(10,12))
-}
-Output: 22
-```
+val Number1 = 10
+val Number2 = 12
+val Result : Int
+fun add(Number1: Int,Number2: Int): Int{
+val addingSum = Number1 + Number2
+return addingSum    }
+Result = add(Number1,Number2)
+println("The Result is = $Result")
 ### Question 2
 Create a function called `fullName()` that takes three inputs strings which are first, middle, and last name, and returns the full name.
-```sh
-fun main() {
-   println(fullName("Ahmed","Abdullah","Al Waleed"))
+Fun main() {
+val firstname = "Ahmed "
+val secondname = "Abdullah "
+val thirdname = "Al Waleed"
+fun fullName(firstname: String, secondname: String, thirdname: String): String {
+val completeName = firstname + secondname + thirdname
+return completeName
 }
-Output: "Ahmed Abdullah Al Waleed"
-```
+println(fullName(firstname, secondname, thirdname))
+}
 
 ## Part II - Practice with Anonymous Functions (Optional).
 ---
 ### Question 3
 Create an anonymous function called `maximum()` that takes three number as input and return the largest one of these numbers.
-```sh
-fun main() {
-    println(maximum(10,14,12))
+fun main(){
+val findMax =fun(numberOne: Int,numberTwo: Int, numberThree: Int): String{
+if(numberOne > numberTwo && numberOne > numberThree) {
+return "The Largest Number is $ numberOne "
+}
+else if (numberTwo > numberOne && numberTwo > numberThree){
+return "The Largest Number is $ numberTwo "
+}
+else if(numberThree > numberOne && numberThree > numberTwo){
+return "The Largest Number is $ numberThree "
+}
+else {
+return "Error, not compute"
+}
 }
 
-Output: "The largest number is 14"
-```
+val result = findMax(10,12,14)
+println(result)
 
 ## Part III - More Practicing (Optional).
 ---
 ### Challenge 1: Mathematical Operations
 Create a function called `math()` that takes two input numbers and that will do Add, Subtract, Multiply, and Divide between these two numbers, and return the operator's name with its result.
-```sh
-fun main() {
-   println(math(2,3))
+fun Adding(numberone:Int, numbertwo:Int, math0 :(c:Int, d:Int)-> Int) {
+val x = numberone
+val y = numbertwo
+println()
+println("add: "+ math0(x,y))
 }
-Output: 
-        Add: 5
-        Subtract: -1
-        Multiply: 6
-        Divide: 0 
-```
+Adding(2,3) { c, d -> c + d }
+fun subtracting(numberone:Int, numbertwo:Int, math0 :( c:Int, d:Int)-> Int) {
+val x = numberone
+val y = numbertwo
 
-### Challenge 2: Fireball Fuel Level
-Casting fireballs does not just print a message to the console. While NyetHack fireballs are strong, the
-player should not be able to cast an unlimited amount of them. Make the `castFireball()` function return
-a resulting remaining fuel value that depends on the number of fireballs cast. The fuel value should be
-between 1 and 50, with 50 being the maximum amount of fuel in the game.
-  
+       println("Subtract: "+ math0(x,y))
+}
+subtracting(2,3) { c, d -> c - d }
+
+fun multiplication(numberone:Int, numbertwo:Int, math0 :( c:Int, d:Int)-> Int) {
+val x = numberone
+val y = numbertwo
+println("Multiply: "+ math0(x,y))
+}
+multiplication(2,3) { c, d -> c * d }
+fun division(numberone:Int, numbertwo:Int, math0 :( c:Int, d:Int)-> Int) {
+val x = numberone
+val y = numbertwo
+println("Divide: "+ math0(x,y))
+}
+division(2,3) { c, d -> c / d }
+}
